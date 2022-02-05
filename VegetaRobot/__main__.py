@@ -16,7 +16,7 @@ from VegetaRobot import (
     TOKEN,
     URL,
     WEBHOOK,
-    SUPPORT_CHAT,UPDATES_CHANNEL,
+    SUPPORT_CHAT,UPDATES_CHANNEL, 
     dispatcher,
     StartTime,
     telethn,
@@ -82,27 +82,27 @@ PM_START_TEXT = """
 [🌸](https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg)𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 *🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸* 𝓲'𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓰𝓻𝓸𝓾𝓹 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼. 𝓯𝓮𝓵𝓵 𝓯𝓻𝓮𝓮 𝓽𝓸 𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹𝓼 𝓱𝓲𝓽 𝓱𝓮𝓵𝓹 𝓫𝓾𝓽𝓽𝓸𝓷 𝓽𝓸 𝓴𝓷𝓸𝔀 𝓶𝔂 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼\n
 [𝓼𝓾𝓹𝓹𝓸𝓻𝓽](t.me/DARKAMANSUPPORT)  [𝓬𝓱𝓪𝓷𝓷𝓮𝓵](t.me/DARKAMANCHANNEL)\n
 """
-
 buttons = [
     [
-        InlineKeyboardButton(
-                            text="🌸𝓪𝓭𝓭 𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸",
+                        InlineKeyboardButton(
+                            text="✨𝐀ᴅᴅ 𝐀ʟᴇxᴀ 𝐑ᴏʙᴏᴛ✨",
                             url="t.me/ALEXA_MANAGER_ROBOT?startgroup=true"),
+                       InlineKeyboardButton(text="𝐕ᴇɴᴏᴍ 𝐑ᴏʙᴏᴛ⚡", url="t.me/GOD_VENOM_ROBOT"),
                     ],
                    [
-                       InlineKeyboardButton(text="🌸𝓬𝓱𝓲𝓽 𝓬𝓱𝓪𝓽🌸", url="t.me/The_Soulmates_Of_Group"),
-                       InlineKeyboardButton(text="🌸𝓵𝓸𝓰𝓼🌸", url="t.me/VENOM_ROBOT_LOGS"),
+                       InlineKeyboardButton(text="🔐 𝐇ᴇʟᴘ", callback_data="help_back"),
+                       InlineKeyboardButton(text="📊 𝐎ᴡɴᴇʀ", url="t.me/BHAGAT_MAHAKAL_KA"),
+                       InlineKeyboardButton(text="🔔 𝐋ᴏɢs", url="t.me/VENOM_ROBOT_LOGS"),
                      ],
                     [                  
                        InlineKeyboardButton(
-                             text="🌸𝓼𝓾𝓹𝓹𝓸𝓻𝓽🌸",
+                             text="🗯 𝐒ᴜᴘᴘᴏʀᴛ",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
-                             text="🌸𝓾𝓹𝓭𝓪𝓽𝓮𝓼🌸",
-                             url=f"https://t.me/{UPDATES_CHANNEL}"
-         ),
-    ],
-] 
+                             text="📢 𝐔ᴘᴅᴀᴛᴇs",
+                             url="https://t.me/DARKAMANCHANNEL")
+                     ], 
+    ]
 
 HELP_STRINGS = """
 ✘ [𝓱𝓮𝔂](https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg) 𝓽𝓱𝓮𝓻𝓮𝔀 𝓲 𝓪𝓶 🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸 𝓽𝓸 𝓶𝓪𝓴𝓮 𝓶𝓮 𝓯𝓾𝓷𝓬𝓽𝓲𝓸𝓷𝓪𝓵, 𝓶𝓪𝓴𝓮 𝓼𝓾𝓻𝓮 𝓽𝓱𝓪𝓽 𝓲 𝓱𝓪𝓿𝓮 𝓮𝓷𝓸𝓾𝓰𝓱𝓽 𝓻𝓲𝓰𝓱𝓽𝓼 𝓲𝓷 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹.
