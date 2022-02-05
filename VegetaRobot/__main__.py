@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-[🌸](https://te.legra.ph/file/a8b31611b9ebcad22b95e.jpg)𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 *🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸* 𝓲'𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓰𝓻𝓸𝓾𝓹 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼. 𝓯𝓮𝓵𝓵 𝓯𝓻𝓮𝓮 𝓽𝓸 𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹𝓼 𝓱𝓲𝓽 𝓱𝓮𝓵𝓹 𝓫𝓾𝓽𝓽𝓸𝓷 𝓽𝓸 𝓴𝓷𝓸𝔀 𝓶𝔂 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼\n
+[🌸](https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg)𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 *🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸* 𝓲'𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓰𝓻𝓸𝓾𝓹 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼. 𝓯𝓮𝓵𝓵 𝓯𝓻𝓮𝓮 𝓽𝓸 𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹𝓼 𝓱𝓲𝓽 𝓱𝓮𝓵𝓹 𝓫𝓾𝓽𝓽𝓸𝓷 𝓽𝓸 𝓴𝓷𝓸𝔀 𝓶𝔂 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼\n
 [𝓼𝓾𝓹𝓹𝓸𝓻𝓽](t.me/DARKAMANSUPPORT)  [𝓬𝓱𝓪𝓷𝓷𝓮𝓵](t.me/DARKAMANCHANNEL)\n
 """
 
@@ -104,7 +104,7 @@ buttons = [
 ] 
 
 HELP_STRINGS = """
-✘ [𝓱𝓮𝔂](https://te.legra.ph/file/a8b31611b9ebcad22b95e.jpg) 𝓽𝓱𝓮𝓻𝓮𝔀 𝓲 𝓪𝓶 🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸 𝓽𝓸 𝓶𝓪𝓴𝓮 𝓶𝓮 𝓯𝓾𝓷𝓬𝓽𝓲𝓸𝓷𝓪𝓵, 𝓶𝓪𝓴𝓮 𝓼𝓾𝓻𝓮 𝓽𝓱𝓪𝓽 𝓲 𝓱𝓪𝓿𝓮 𝓮𝓷𝓸𝓾𝓰𝓱𝓽 𝓻𝓲𝓰𝓱𝓽𝓼 𝓲𝓷 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹.
+✘ [𝓱𝓮𝔂](https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg) 𝓽𝓱𝓮𝓻𝓮𝔀 𝓲 𝓪𝓶 🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸 𝓽𝓸 𝓶𝓪𝓴𝓮 𝓶𝓮 𝓯𝓾𝓷𝓬𝓽𝓲𝓸𝓷𝓪𝓵, 𝓶𝓪𝓴𝓮 𝓼𝓾𝓻𝓮 𝓽𝓱𝓪𝓽 𝓲 𝓱𝓪𝓿𝓮 𝓮𝓷𝓸𝓾𝓰𝓱𝓽 𝓻𝓲𝓰𝓱𝓽𝓼 𝓲𝓷 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹.
 ✘ /start ☞︎︎︎ 𝓼𝓽𝓪𝓻𝓽𝓼 𝓶𝓮 𝔂𝓸𝓾'𝓿𝓮 𝓹𝓻𝓸𝓫𝓪𝓫𝓵𝔂 𝓪𝓵𝓻𝓮𝓪𝓭𝔂 𝓾𝓼𝓮𝓭 𝓽𝓱𝓲𝓼.
 ✘ /help ☞︎︎︎ 𝓼𝓮𝓷𝓭𝓼 𝓽𝓱𝓲𝓼 𝓶𝓮𝓼𝓼𝓪𝓰𝓮 𝓲 𝔀𝓲𝓵𝓵 𝓽𝓮𝓵𝓵 𝔂𝓸𝓾 𝓶𝓸𝓻𝓮 𝓪𝓫𝓸𝓾𝓽 𝓶𝔂𝓼𝓮𝓵𝓯 𝓪𝓵𝓵 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼 𝓬𝓪𝓷 𝓫𝓮 𝓾𝓼𝓮𝓭 𝔀𝓲𝓽𝓱 𝓽𝓱𝓮 𝓯𝓸𝓵𝓵𝓸𝔀𝓲𝓷𝓰 ✘ (/),(!),(?),(.),(~)
 """.format( 
@@ -114,8 +114,8 @@ HELP_STRINGS = """
 
 HELP_MSG = "𝓬𝓵𝓲𝓬𝓴 𝓽𝓱𝓮 𝓫𝓾𝓽𝓽𝓸𝓷 𝓫𝓮𝓵𝓸𝔀 𝓽𝓸 𝓰𝓮𝓽 𝓱𝓮𝓵𝓹 𝓶𝓮𝓷𝓾𝓲𝓷 𝔂𝓸𝓾𝓻 𝓹𝓶."
 DONATE_STRING = """𝓬𝓸𝓷𝓽𝓪𝓬𝓽 𝓽𝓸 [𝓭𝓪𝓻𝓴𝓪𝓶𝓪𝓷](t.me/darkaman)"""
-HELP_IMG= "https://te.legra.ph/file/a8b31611b9ebcad22b95e.jpg"
-START_IMG= "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
+HELP_IMG= "https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg"
+START_IMG= "https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
