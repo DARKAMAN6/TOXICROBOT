@@ -115,6 +115,7 @@ HELP_STRINGS = """
 HELP_MSG = "𝓬𝓵𝓲𝓬𝓴 𝓽𝓱𝓮 𝓫𝓾𝓽𝓽𝓸𝓷 𝓫𝓮𝓵𝓸𝔀 𝓽𝓸 𝓰𝓮𝓽 𝓱𝓮𝓵𝓹 𝓶𝓮𝓷𝓾𝓲𝓷 𝔂𝓸𝓾𝓻 𝓹𝓶."
 DONATE_STRING = """𝓬𝓸𝓷𝓽𝓪𝓬𝓽 𝓽𝓸 [𝓭𝓪𝓻𝓴𝓪𝓶𝓪𝓷](t.me/darkaman)"""
 HELP_IMG= "https://te.legra.ph/file/a8b31611b9ebcad22b95e.jpg"
+START_IMG= "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -183,6 +184,61 @@ def test(update: Update, context: CallbackContext):
 
 
 
+def start(update: Update, context: CallbackContext):
+    args = context.args
+    uptime = get_readable_time((time.time() - StartTime))
+    if update.effective_chat.type == "private":
+        if len(args) >= 1:
+            if args[0].lower() == "help":
+                send_help(update.effective_chat.id, HELP_STRINGS)
+            elif args[0].lower().startswith("ghelp_"):
+                mod = args[0].lower().split("_", 1)[1]
+                if not HELPABLE.get(mod, False):
+                    return
+                send_help(
+                    update.effective_chat.id,
+                    HELPABLE[mod].__help__,
+                    InlineKeyboardMarkup(
+                        [[InlineKeyboardButton(text="⬅Back", callback_data="help_back")]]
+                    ),
+                )
+
+            elif args[0].lower().startswith("stngs_"):
+                match = re.match("stngs_(.*)", args[0].lower())
+                chat = dispatcher.bot.getChat(match.group(1))
+
+                if is_user_admin(chat, update.effective_user.id):
+                    send_settings(match.group(1), update.effective_user.id, False)
+                else:
+                    send_settings(match.group(1), update.effective_user.id, True)
+
+            elif args[0][1:].isdigit() and "rules" in IMPORTED:
+                IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
+
+        else:
+            update.effective_message.reply_text(
+               PM_START_TEXT,
+                reply_markup=InlineKeyboardMarkup(buttons),
+                parse_mode=ParseMode.MARKDOWN,
+                timeout=60,
+                disable_web_page_preview=False,
+            )
+    else:
+        first_name = update.effective_user.first_name
+        update.effective_message.reply_video(
+            START_IMG, caption= "*𝓱𝓮𝔂 {},*\n*🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽 𝓲𝓼 𝓱𝓮𝓪𝓻🌸*\n*🌸𝓹𝓸𝔀𝓮𝓻 𝓵𝓮𝓿𝓮𝓵 𝓽𝓲𝓶𝓮🌸* ✘ {} ".format(
+             first_name,uptime
+            ),
+            parse_mode=ParseMode.MARKDOWN,
+        reply_markup=InlineKeyboardMarkup(
+                [
+                  [
+                  InlineKeyboardButton(text="🌸𝓼𝓾𝓹𝓹𝓸𝓻𝓽🌸 ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
+                  InlineKeyboardButton(text="🌸𝓾𝓹𝓭𝓪𝓽𝓮𝓼🌸", url=f"t.me/DARKAMANCHANNEL"),
+                  ]
+                ]
+            ),
+        )
 
 
 def error_handler(update, context):
