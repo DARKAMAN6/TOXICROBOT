@@ -85,26 +85,24 @@ PM_START_TEXT = """
 
 buttons = [
     [
-                        InlineKeyboardButton(
-                            text="Add Me ⚡",
-                            url="t.me/VegetaRobot?startgroup=true"),
-                       InlineKeyboardButton(text="Bot Support ⚡", url="t.me/vegetaSupport"),
+        InlineKeyboardButton(
+                            text="🌸𝓪𝓭𝓭 𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸",
+                            url="t.me/ALEXA_MANAGER_ROBOT?startgroup=true"),
                     ],
                    [
-                       InlineKeyboardButton(text="🔐 Help ", callback_data="help_back"),
-                       InlineKeyboardButton(text="📊 Network", url="t.me/pegasusNetworkofficial"),
-                       InlineKeyboardButton(text="🔔 Logs", url="t.me/pegasusLogs"),
+                       InlineKeyboardButton(text="🌸𝓬𝓱𝓲𝓽 𝓬𝓱𝓪𝓽🌸", url="t.me/The_Soulmates_Of_Group"),
+                       InlineKeyboardButton(text="🌸𝓵𝓸𝓰𝓼🌸", url="t.me/VENOM_ROBOT_LOGS"),
                      ],
                     [                  
                        InlineKeyboardButton(
-                             text="🗯 Support",
+                             text="🌸𝓼𝓾𝓹𝓹𝓸𝓻𝓽🌸",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
-                             text="📢 Updates",
-                             url="https://t.me/PegasusUpdates")
-                     ], 
-    ]
-
+                             text="🌸𝓾𝓹𝓭𝓪𝓽𝓮𝓼🌸",
+                             url=f"https://t.me/{UPDATES_CHANNEL}"
+         ),
+    ],
+] 
 
 HELP_STRINGS = """
 ✘ [𝓱𝓮𝔂](https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg) 𝓽𝓱𝓮𝓻𝓮𝔀 𝓲 𝓪𝓶 🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸 𝓽𝓸 𝓶𝓪𝓴𝓮 𝓶𝓮 𝓯𝓾𝓷𝓬𝓽𝓲𝓸𝓷𝓪𝓵, 𝓶𝓪𝓴𝓮 𝓼𝓾𝓻𝓮 𝓽𝓱𝓪𝓽 𝓲 𝓱𝓪𝓿𝓮 𝓮𝓷𝓸𝓾𝓰𝓱𝓽 𝓻𝓲𝓰𝓱𝓽𝓼 𝓲𝓷 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹.
