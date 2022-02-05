@@ -5,9 +5,9 @@ from VegetaRobot.events import register
 from VegetaRobot import telethn as tbot
 
 
-PHOTO = "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
+PHOTO = "https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg"
 
-@register(pattern=("/alive|/start?(.*)"))
+@register(pattern=("/alive"))
 async def awake(event):
   TEXT = f"𝐇𝐈 [{event.sender.first_name}](tg://user?id={event.sender.id}), 𝐈'𝐌 𝐀𝐋𝐄𝐗𝐀 \n\n"
   TEXT += "✨ 𝐈'𝐌 𝐖𝐎𝐑𝐊𝐈𝐍𝐆 𝐏𝐑𝐎𝐏𝐄𝐑𝐋𝐘 \n\n"
