@@ -34,12 +34,12 @@ GBAM_REASON = (
 )
 
 DECIDE = ( 
-"https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg",
-"https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg",
-"https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg",
-"https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg",
-"https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg",
-"https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg" )
+"https://te.legra.ph/file/36f25650f044e7fd771c7.gif",
+"https://te.legra.ph/file/36f25650f044e7fd771c7.gif",
+"https://te.legra.ph/file/36f25650f044e7fd771c7.gif",
+"https://te.legra.ph/file/36f25650f044e7fd771c7.gif",
+"https://te.legra.ph/file/36f25650f044e7fd771c7.gif",
+"https://te.legra.ph/file/36f25650f044e7fd771c7.gif" )
     
     
 WISH = (
@@ -263,7 +263,7 @@ SFW_STRINGS = (
 )
     
   
-REPO = "https://t.me/Darkaman"
+REPO = "https://t.me/DARKAMAN"
 
   
   
