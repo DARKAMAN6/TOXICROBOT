@@ -41,10 +41,10 @@ from VegetaRobot.modules.helper_funcs.extraction import extract_user_and_text
 from VegetaRobot.modules.helper_funcs.string_handling import extract_time
 from VegetaRobot.modules.log_channel import gloggable, loggable
 
-UNBAN_IMG= "https://telegra.ph/file/0ac714f6c537a2570cfd3.mp4"
-BAN_IMG= "https://telegra.ph/file/35ae9ea0ae57d53b98c0f.mp4"
-KICK_IMG= "https://telegra.ph/file/34462049fc4f176297132.mp4"
-SELF_KICK= "https://telegra.ph/file/f1d4f976d2e90fa40740c.mp4"
+UNBAN_IMG= "https://te.legra.ph/file/6f1fe2568414f8a052808.jpg"
+BAN_IMG= "https://te.legra.ph/file/6f1fe2568414f8a052808.jpg"
+KICK_IMG= "https://te.legra.ph/file/6f1fe2568414f8a052808.jpg"
+SELF_KICK= "https://te.legra.ph/file/6f1fe2568414f8a052808.jpg"
 
 @run_async
 @connection_status
