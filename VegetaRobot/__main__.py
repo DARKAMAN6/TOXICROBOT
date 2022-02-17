@@ -116,7 +116,7 @@ HELP_STRINGS = """
 HELP_MSG = "𝓬𝓵𝓲𝓬𝓴 𝓽𝓱𝓮 𝓫𝓾𝓽𝓽𝓸𝓷 𝓫𝓮𝓵𝓸𝔀 𝓽𝓸 𝓰𝓮𝓽 𝓱𝓮𝓵𝓹 𝓶𝓮𝓷𝓾𝓲𝓷 𝔂𝓸𝓾𝓻 𝓹𝓶."
 DONATE_STRING = """𝓬𝓸𝓷𝓽𝓪𝓬𝓽 𝓽𝓸 [𝓭𝓪𝓻𝓴𝓪𝓶𝓪𝓷](t.me/darkaman)"""
 HELP_IMG= "https://te.legra.ph/file/6f1fe2568414f8a052808.jpg"
-START_IMG= "https://te.legra.ph/file/6f1fe2568414f8a052808.jpg"
+START_IMG= "https://te.legra.ph/file/36f25650f044e7fd771c7.gif"
 
 IMPORTED = {}
 MIGRATEABLE = []
