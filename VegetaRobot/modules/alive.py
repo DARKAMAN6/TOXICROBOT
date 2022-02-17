@@ -5,7 +5,7 @@ from VegetaRobot.events import register
 from VegetaRobot import telethn as tbot
 
 
-PHOTO = "https://te.legra.ph/file/3b579c35f08aeaba3d85e.jpg"
+PHOTO = "https://te.legra.ph/file/6f1fe2568414f8a052808.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
