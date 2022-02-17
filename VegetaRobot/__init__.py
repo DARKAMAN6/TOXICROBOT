@@ -84,7 +84,7 @@ if ENV:
     STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', True))
     WORKERS = int(os.environ.get('WORKERS', 8))
     BAN_STICKER = os.environ.get('BAN_STICKER',
-                                 'CAADAgADOwADPPEcAXkko5EB3YGYAg')
+                                 'CgACAgQAAxkBAAIOo2IOA6746jwZ6ndx9xqtc4lxCIJaAAKQAwACoDBYUflmSg0cHfEaIwQ')
     ALLOW_EXCL = os.environ.get('ALLOW_EXCL', False)
     OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", "") # From:- https://openweathermap.org/api
     CASH_API_KEY = os.environ.get('CASH_API_KEY', None)
