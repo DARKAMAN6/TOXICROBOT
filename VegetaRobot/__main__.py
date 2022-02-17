@@ -79,12 +79,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-[✨](https://te.legra.ph/file/6f1fe2568414f8a052808.jpg)𝐇ᴇʏ 𝐓ʜᴇʀᴇ 𝐌ʏ 𝐍ᴀᴍᴇ 𝐈s 𝐀ʟᴇxᴀ 𝐑ᴏʙᴏᴛ 𝐈'ᴍ 𝐀 𝐏ᴏᴡᴇʀғᴜʟʟ 𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴇʀ 𝐁ᴏᴛ 𝐖ɪᴛʜ 𝐂ᴏᴏʟ 𝐌ᴏᴅᴜʟᴇs. 𝐅ᴇʟʟ 𝐅ʀᴇᴇ 𝐓ᴏ 𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘs 𝐇ɪᴛ 𝐇ᴇʟᴘ 𝐁ᴜᴛᴛᴏɴ 𝐓ᴏ 𝐊ɴᴏᴡ 𝐌ʏ 𝐂ᴏᴍᴍᴀɴᴅs✨
+[✨](https://te.legra.ph/file/6f1fe2568414f8a052808.jpg)𝐇ᴇʏ 𝐓ʜᴇʀᴇ 𝐌ʏ 𝐍ᴀᴍᴇ 𝐈s ✨𝐀ʟᴇxᴀ 𝐑ᴏʙᴏᴛ✨ 𝐈'ᴍ 𝐀 𝐏ᴏᴡᴇʀғᴜʟʟ 𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴇʀ 𝐁ᴏᴛ 𝐖ɪᴛʜ 𝐂ᴏᴏʟ 𝐌ᴏᴅᴜʟᴇs. 𝐅ᴇʟʟ 𝐅ʀᴇᴇ 𝐓ᴏ 𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘs 𝐇ɪᴛ 𝐇ᴇʟᴘ 𝐁ᴜᴛᴛᴏɴ 𝐓ᴏ 𝐊ɴᴏᴡ 𝐌ʏ 𝐂ᴏᴍᴍᴀɴᴅs✨
 ➖➖➖➖➖➖➖➖➖➖➖➖➖\n
-▭▭▰▰▭▭▰▰▭▭▰▰▭▭▰▰▭
+▭▭▰▰▭▭▰▰▭▭▰▰▭▭▰▰
 ✘ 𝐉ᴏɪɴ ☞︎︎︎ [𝐒ᴜᴘᴘᴏʀᴛ](t.me/DARKAMANSUPPORT)
 ✘ 𝐉ᴏɪɴ ☞︎︎︎ [𝐂ʜᴀɴɴᴇʟ](t.me/DARKAMANCHANNEL)
-▭▭▰▰▭▭▰▰▭▭▰▰▭▭▰▰▭\n
+▭▭▰▰▭▭▰▰▭▭▰▰▭▭▰▰\n
 """
 buttons = [
     [
@@ -231,7 +231,7 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_video(
-            START_IMG, caption= "*𝓱𝓮𝔂 {},*\n*🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽 𝓲𝓼 𝓱𝓮𝓪𝓻🌸*\n*🌸𝓹𝓸𝔀𝓮𝓻 𝓵𝓮𝓿𝓮𝓵 𝓽𝓲𝓶𝓮🌸* ✘ {} ".format(
+            START_IMG, caption= "*✨𝐇ᴇʏ {},*\n*💫𝐀ʟᴇxᴀ 𝐑ᴏʙᴏᴛ 𝐈s 𝐇ᴇʀᴇ💫*\n*❤️𝐏ᴏᴡᴇʀ 𝐋ᴇᴠᴇʟ❤️* ✘ {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
@@ -318,7 +318,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "Powered by @DARKAMANSUPPORT\nHere is the help for the *{}* module:\n".format(
+                "✨𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 @DARKAMANSUPPORT\n𝐇𝐄𝐑𝐄 𝐈𝐒 𝐓𝐇𝐄  𝐇𝐄𝐋𝐏 𝐅𝐎𝐑 𝐓𝐇𝐄 *{}* 𝐌𝐎𝐃𝐔𝐋𝐄:\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
